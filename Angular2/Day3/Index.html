@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="./system.src.js"></script>
+    </head>
+    <body>
+        <h1>This is Index.html</h1>
+        <script>
+            System.config({
+                packages:{
+                    '.':{
+                        defaultExtension:'js'
+                    }   
+                }
+            });
+            System.import('./PresentationLayer');
+        </script>
+    </body>
+
+</html>

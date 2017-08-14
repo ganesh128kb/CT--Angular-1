@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <!--FOR ANGULAR2 ROUTING-->
+        <base href="/"/>
+        <!--FOR ANGULAR2 ROUTING-->
+
+
+        <!--Used for BootStrap(CSS)-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <!--Used for BootStrap(CSS)-->
+
+        <!--Used for zone, decorators-->
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/reflect.js"></script>
+        <!--Used for zone, decorators-->
+               
+        <!--Used for system js-->
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="systemjs.config.js"></script>
+        <!--Used for system js-->
+    </head>
+
+    <body>
+        <script>
+            System.import('myangularapp');
+        </script>   
+
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 align='center'>HOME PAGE</h2>
+                </div>
+
+                <div class="panel-body">
+                    <root-component>Loading...</root-component>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
