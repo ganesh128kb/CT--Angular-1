@@ -1,0 +1,11 @@
+{
+    "name": "ExpressApp",
+    "version": "0.0.1",
+    "description": "A Node.js App using express",
+    "dependencies": {
+        "angular": "^1.5.7",
+        "bootstrap": "^3.3.6",
+        "highcharts-ng": "0.0.11"
+    },
+    "engine": "node >=0.6.x"
+}
