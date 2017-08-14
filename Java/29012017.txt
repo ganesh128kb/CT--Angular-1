@@ -1,0 +1,114 @@
+JDK is a home directory 
+Java has bundle multple classes in diff box
+	GUI - button format .class
+	      textbox
+		checkbox
+		list
+	
+	Applet
+	 Applet related classes
+	
+	lang
+		sytem
+		String
+		Integer
+		Float
+		Object is imp
+		Class
+
+	Util
+		Date
+		Vector
+		ArrayList
+	IO
+		PrintStream
+		InputStream
+		Output
+	Networking
+		Socket
+		Server
+		URL
+
+
+Java support only multi level inheritence not multiple inheritence
+ambee quity
+At the top most is object.
+Object 
+
+Lang is only package should import by default.
+
+
+IN C class add
+package assigments.basic;
+
+d:\students\ganesh> javac c.java then enter
+d:\students\ganesh> java c then enter
+d:\students\ganesh> del *.class then enter
+d:\students\ganesh> javac -d . c.java enter
+d:\students\ganesh> java c enter
+d:\students\ganesh\assignments\basic> java c enter
+d:\students\ganesh> java assignments.basic.C enter
+
+
+1)
+package tranning
+public class P{
+	protected int i;
+public void m1(){
+	i=10;
+}
+}
+
+2) package traning
+	public class Q{
+		public void m2(){
+		P p = new P();
+		p.i= 50;
+}
+}
+
+3)
+package trannning;
+	public R extends P
+{	
+public void m3(){
+	P p = new P();
+	p.i = 100;
+	i=50;
+}
+}
+
+4) package consulting 
+	import tranning P;
+	public class S extends P{
+	public void m4(){
+		P p = new P();
+		p.i = 20;
+		i=100;
+	}
+}
+
+5) package tranning
+	public class T{
+		public void m5(){
+			R n = new R();
+	m.i=50;
+}
+}
+
+6) package consulting;
+	public class U{
+	public void m6{
+		{
+	S s= new S();
+	s.i = 50;
+}
+}
+
+
+					Private		Default		Protected	Public
+1) Other member of the same class 	Yes		Yes		Yes		yes
+2) Other classes (subclasses & Non - 	NO		Yes		yes		yes
+subclasses in the same package 		
+3) Sub classes in other package		No		No		Yes 		yes
+4) Non subclass in other package	No		No		No		yes

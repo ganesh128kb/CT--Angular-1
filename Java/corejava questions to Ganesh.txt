@@ -1,0 +1,115 @@
+what is volatile, how it is useful
+concurrency in java multithreading
+java 7 and 8 features (important )
+design patterns  (very Imp)
+mutlthreading using runnable interface vs thread class
+executorservice in java why it it imp?
+fork and join
+hashmap internal flow
+diff between treemap and hashmap
+why equals and hashcode method we need to override ? when will ?
+diff comprable and comparator interface
+how to sort userdefined objects in treemap or treeset
+string pool what it is ?
+oops concepts
+diff betweeen interface and abstract class
+when will choose interface and when abstract class
+througly prepare collections framework like
+diff between arraylist and linkedlist
+diff between hashset and treeset
+diff between hashmap and treemap
+how to sort user defined objects in treeset
+diff list vs set vs map
+exception handling
+
+
+
+
+
+can we override private methods and private static methods
+
+what is copy constructor
+
+diff between clone and copycostructor
+
+interface and abstract class usecases
+
+how to create thread by using thread class and runnable interface .. which is one is preferable
+
+thread states with proper understanding
+
+threadlocal class why?
+
+threadlocal vs volatile
+
+diff between iterator and list iterator
+
+hashmap workflow complete
+
+why we need to override hashcode and equls methods
+
+collectionn concepts like sorting, synchronization in all the collections classes
+http://www.instanceofjava.com/2015/07/collections-interview-questions-java.html
+
+
+how sorting can be done in collections and diff between all the collections
+
+how to choose correct collection class i.e best practices in collections framework
+
+what is stack and heap
+
+interview questions on datastructures and algorithms
+
+concurrenthaspmap , copyonwritearlist, copyonwriteset
+
+what is lockstriping in java
+
+what is readwrite lock?
+
+immutable and singleton classes ? usecases for these?
+
+design patterns in java? very imp
+
+what is busy spinning in java
+
+how do u prevent sql injection in java code
+
+what is Session Fixation attack or Cross Site Scripting attack
+
+WeakReference, SoftReference or PhantomReference? and Why should you use them?
+
+getmethod in hashmap workflow
+
+Why Should an Object Used As the Key should be Immutable? 
+
+how to share objects between threads
+
+how to avoid deadlocking
+
+thread safety collection classes
+
+volatile,transient key in java and threadlocal variable also check
+
+what is race conndition inn java
+
+Why wait and notify method are called from synchronized block? 
+
+diff between synchronization and concurrency
+
+what is producer consumer problme
+
+what is stack and heap
+
+avoid deadlock example code
+
+ExecutorService in java
+
+double checking locking in singleton object
+
+diff between serializable and externliable
+
+association , composition, aggregation usecases
+
+diff between programmatic transaction vs declarative transaction
+
+diff types of listerners
